@@ -6,21 +6,10 @@ import { Education, Project, Skill } from "./types";
  * ==========================================================
  */
 
-export const STUDENT_NAME = "CHANGE_ME_FULL_NAME";
-
-export const REGISTRATION_NUMBER = "CHANGE_ME_REGISTRATION_NUMBER";
-
-/*
- * Example:
- * Registration number: 24/24671
- * Verification code: MOB-A2-4671
- *
- * Replace with the last four digits of YOUR registration number.
- */
-export const VERIFICATION_CODE = "MOB-A2-XXXX";
-
-export const APP_NAME = "RPortfolio";
-
+export const STUDENT_NAME =  "RUDASINGWA Theogene";
+export const REGISTRATION_NUMBER = "25/27330";
+export const VERIFICATION_CODE = "MOB-A2-7330";
+export const APP_NAME = "theoPortfolio";
 export const APP_VERSION = "1.0.0";
 
 export const skills: Skill[] = [

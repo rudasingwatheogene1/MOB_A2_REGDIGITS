@@ -1,16 +1,10 @@
 import React from "react";
 
-import {
-  NavigationContainer,
-} from "@react-navigation/native";
+import { NavigationContainer } from "@react-navigation/native";
 
-import {
-  createBottomTabNavigator,
-} from "@react-navigation/bottom-tabs";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import {
-  createNativeStackNavigator,
-} from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import HomeScreen from "../screens/HomeScreen";
 import SkillsScreen from "../screens/SkillsScreen";
@@ -19,8 +13,24 @@ import ProjectDetailsScreen from "../screens/ProjectDetailsScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import AboutScreen from "../screens/AboutScreen";
 
-const Tab = createBottomTabNavigator();
-const ProjectStack = createNativeStackNavigator();
+type ProjectStackParamList = {
+  ProjectsHome: undefined;
+  ProjectDetails: {
+    projectId: string;
+  };
+};
+
+type TabParamList = {
+  Home: undefined;
+  Skills: undefined;
+  Projects: undefined;
+  Profile: undefined;
+  About: undefined;
+};
+
+const Tab = createBottomTabNavigator<TabParamList>();
+const ProjectStack =
+  createNativeStackNavigator<ProjectStackParamList>();
 
 function ProjectsNavigator() {
   return (

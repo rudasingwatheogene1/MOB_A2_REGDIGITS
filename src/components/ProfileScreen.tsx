@@ -31,7 +31,7 @@ export default function ProfileScreen() {
     profile.primarySkill
   );
   const [availability, setAvailability] =
-    useState<AvailabilityStatus>(profile.availability);
+  useState<string>(profile.availability);
 
   const [imageUri, setImageUri] = useState<string | null>(
     profile.imageUri

@@ -4,10 +4,9 @@ My name is RUDASINGWA Theogene.
 
 ## Student Information
 
-- Full Name: RUDASINGWA Theogene
-- Registration Number: 25/27330
-- Verification Code: MOB-A2-1213
-- Application Name: RPortfolio
+export const STUDENT_NAME = "RUDASINGWA Theogene";
+export const REGISTRATION_NUMBER = "25/27330";
+export const VERIFICATION_CODE = "MOB-A2-7330";
 - Version: 1.0.0
 
 ## Purpose
