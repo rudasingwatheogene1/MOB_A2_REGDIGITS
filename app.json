@@ -10,11 +10,20 @@
       "**/*"
     ],
     "android": {
-      "package": "rw.ac.ines.CHANGE_ME_REGDIGITS.rportfolio",
-      "versionCode": 1
+      "package": "rw.ac.ines.r25330.rportfolio",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "plugins": [
       "expo-image-picker"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "295b4cad-fa8f-4f33-8c51-bc31ae1e5ace"
+      }
+    },
+    "owner": "tibbooo"
   }
 }
