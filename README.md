@@ -1,12 +1,12 @@
 # RPortfolio
 
-My name is CHANGE_ME_FULL_NAME.
+My name is RUDASINGWA Theogene.
 
 ## Student Information
 
-- Full Name: CHANGE_ME_FULL_NAME
-- Registration Number: CHANGE_ME_REGISTRATION_NUMBER
-- Verification Code: MOB-A2-XXXX
+- Full Name: RUDASINGWA Theogene
+- Registration Number: 25/27330
+- Verification Code: MOB-A2-1213
 - Application Name: RPortfolio
 - Version: 1.0.0
 
